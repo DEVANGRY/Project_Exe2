@@ -10,7 +10,7 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 import Autoplay from "embla-carousel-autoplay";
 import Banner1 from "@/app/common/subBanner/Banner1";
-import { propsBanner } from "@/app/types/data.interface";
+import { propsBanner } from "@/app/types/props.interface";
 
 const BannerCarousel = (props: propsBanner) => {
     const plugin = React.useRef(

@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "./Logo";
 import Link from "next/link";
 import { Store } from "lucide-react";
-import { propsHeaderHome } from "@/app/types/data.interface";
+import { propsHeaderHome } from "@/app/types/props.interface";
 
 const HeaderHome = (props: propsHeaderHome) => {
     return (

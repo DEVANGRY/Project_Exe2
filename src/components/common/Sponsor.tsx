@@ -1,7 +1,7 @@
 import React from "react";
 import { sponsorData } from "@/components/data/Sponsor/sponsorData";
 import { ISponsor } from "@/components/data/Sponsor/type";
-import { propsSponsor } from "@/app/types/data.interface";
+import { propsSponsor } from "@/app/types/props.interface";
 
 const Sponsor = (props: propsSponsor) => {
     return (
