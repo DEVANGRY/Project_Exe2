@@ -2,9 +2,8 @@ import React from "react";
 import Logo from "./Logo";
 import Link from "next/link";
 import { Store } from "lucide-react";
-interface propsHeaderHome {
-    className: string;
-}
+import { propsHeaderHome } from "@/app/types/data.interface";
+
 const HeaderHome = (props: propsHeaderHome) => {
     return (
         <header className={`${props.className}`}>
