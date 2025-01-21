@@ -1,10 +1,7 @@
 import React from "react";
 import { sponsorData } from "@/components/data/Sponsor/sponsorData";
 import { ISponsor } from "@/components/data/Sponsor/type";
-
-interface propsSponsor {
-    className: string;
-}
+import { propsSponsor } from "@/app/types/data.interface";
 
 const Sponsor = (props: propsSponsor) => {
     return (
@@ -22,7 +19,7 @@ const Sponsor = (props: propsSponsor) => {
                             <div className="icon_sponsor text-4xl md:text-5xl">
                                 <Icon className="text-orange-600" />
                             </div>
-                            <div className="title_sponsor mt-2 text-center sm:text-base md:text-lg uppercase font-semibold">
+                            <div className="title_sponsor mt-2 text-center text-sm uppercase font-semibold">
                                 {item.detail}
                             </div>
                         </div>

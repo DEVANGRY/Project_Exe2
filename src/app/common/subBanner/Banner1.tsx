@@ -14,7 +14,7 @@ const Banner = () => {
                     backgroundImage: `url(${banner1})`,
                 }}
             ></div>
-            <div className="absolute inset-0 flex flex-col items-start justify-center text-white ml-[150px]">
+            <div className="absolute inset-0 flex flex-col items-start justify-center text-white md:ml-[150px] ml-28">
                 <p className={`text-2xl ${playwrite.className} font-semibold`}>
                     Bliss box
                 </p>
