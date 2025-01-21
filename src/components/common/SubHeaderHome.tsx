@@ -4,7 +4,7 @@ import { Menu } from "lucide-react";
 import SelectLanguage from "@/components/ui/selectLanguage";
 import { Button } from "@/components/ui/button";
 import MenuHelper from "./MenuHelper";
-import { propsSubHeaderHome } from "@/app/types/data.interface";
+import { propsSubHeaderHome } from "@/app/types/props.interface";
 
 const SubHeader = (props: propsSubHeaderHome) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

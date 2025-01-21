@@ -1,7 +1,7 @@
 import React from "react";
 import { mainBanner } from "@/app/data/Banner/banner";
 import { Button } from "@/components/ui/button";
-import { propsBannerMain } from "@/app/types/data.interface";
+import { propsBannerMain } from "@/app/types/props.interface";
 
 const BannerMain = (props: propsBannerMain) => {
     return (

@@ -1,3 +1,4 @@
+import { ETypeFormat } from "@/components/data/GiftBox/type";
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 

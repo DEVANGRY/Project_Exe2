@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { logoIcon } from "@/components/data/Logo/logo";
 import { Playwrite_IT_Moderna } from "next/font/google";
-import { propsLogo } from "@/app/types/data.interface";
+import { propsLogo } from "@/app/types/props.interface";
 
 const playwrite = Playwrite_IT_Moderna({});
 
