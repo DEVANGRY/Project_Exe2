@@ -1,24 +1,40 @@
+import { IBenefitItem } from "@/components/data/BenefitItem/type";
+
 export interface propsBanner {
-    className: string;
+    className?: string;
 }
 export interface propsBannerMain {
-    className: string;
+    className?: string;
 }
 export interface propsHeaderHome {
-    className: string;
+    className?: string;
 }
 export interface propsLogo {
-    propClassName: string;
+    propClassName?: string;
 }
 export interface propsSponsor {
-    className: string;
+    className?: string;
 }
 export interface propsSubHeaderHome {
-    className: string;
+    className?: string;
 }
 export interface propsFeatured {
-    className: string;
+    className?: string;
 }
 export interface propsFooter {
-    className: string;
+    className?: string;
+}
+export interface propsBenefitsSection {
+    className?: string;
+}
+export interface propsBenefitCardItem {
+    className?: string;
+    data: IBenefitItem;
+}
+export interface propsFaqs {
+    className?: string;
+}
+export interface propsStart {
+    className?: string;
+    startNumber: number;
 }
