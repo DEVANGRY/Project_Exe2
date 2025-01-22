@@ -46,7 +46,7 @@ export default function RootLayout({
                 <BannerMain className="h-[60vh] relative"></BannerMain>
                 <BenefitsSection className="h-[800px] md:h-[65vh] bg-gray-100"></BenefitsSection>
                 <TopComment></TopComment>
-                <Faqs className="h-[60vh] bg-white"></Faqs>
+                <Faqs></Faqs>
                 {children}
                 <Footer className="bg-slate-800 md:h-[65vh] h-[900px] px-10"></Footer>
             </body>
