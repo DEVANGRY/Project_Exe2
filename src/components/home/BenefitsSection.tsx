@@ -4,10 +4,12 @@ import { Dancing_Script } from "next/font/google";
 import BenefitCardItem from "@/components/common/BenefitCardItem";
 import { benefitItemData } from "@/components/data/BenefitItem/BenefitItem";
 import { IBenefitItem } from "@/components/data/BenefitItem/type";
+import { useTranslations } from "next-intl";
 
 const dancing_Script = Dancing_Script({ subsets: ["latin"] });
 
 const BenefitsSection = (props: propsBenefitsSection) => {
+    const t = useTranslations("BenefitsSection");
     return (
         <div className={`${props.className} flex flex-col`}>
             <div
@@ -16,14 +18,10 @@ const BenefitsSection = (props: propsBenefitsSection) => {
                 <h2
                     className={`title_benefit text-5xl font-bold mt-5 px-1 md:px-0`}
                 >
-                    Why Choose Bliss Box
+                    {t("Why Choose Bliss Box")}
                 </h2>
                 <p className="text-sm text-center w-[250px] md:w-[850px] md:text-2xl text-orange-800 ">
-                    At Bliss Box., we specialize in creating bespoke gift boxes
-                    that speak to the heart. Every box is thoughtfully curated
-                    to deliver a memorable gifting experience, whether you’re
-                    expressing gratitude, celebrating a milestone, or making a
-                    meaningful connection.
+                    {t("Detail Benefit")}
                 </p>
             </div>
             <div className="item_benefit grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center mb-16 gap-16 justify-center px-10">

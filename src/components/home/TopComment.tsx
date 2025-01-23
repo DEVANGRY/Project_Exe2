@@ -12,11 +12,13 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { dataTopComment } from "@/components/data/TopComent/TopComent";
 import { ITopComment } from "@/components/data/TopComent/type";
 import Stars from "../common/Stars";
+import { useTranslations } from "next-intl";
 
 const jersey = Jersey_20({ subsets: ["latin"], weight: "400" });
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 const TopComment = () => {
+    const t = useTranslations("TopComment");
     return (
         <div className={`h-auto py-12 relative ${jersey.className}`}>
             <div
@@ -28,11 +30,12 @@ const TopComment = () => {
 
             <div className="container mx-auto px-4 relative z-10 mt-8">
                 <h2 className="text-center text-4xl font-bold mb-6 text-red-500">
-                    Shop Bliss Box with confidence.
+                    {t("Shop Bliss Box with confidence")}
                 </h2>
                 <p className="text-center text-gray-300 text-xl mb-10">
-                    Over <span className="font-bold text-green-400">100</span>{" "}
-                    Satisfied Customers!
+                    {t("Over")}{" "}
+                    <span className="font-bold text-green-400">100</span>{" "}
+                    {t("Satisfied Customers!")}
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
@@ -62,10 +65,10 @@ const TopComment = () => {
 
                                     <CardContent className="px-4 flex-grow">
                                         <h3 className="font-bold text-green-700 text-3xl mb-2 text-center">
-                                            {comment.title}
+                                            {t(comment.title)}
                                         </h3>
                                         <p className="text-black opacity-60 mb-4 text-xl indent-5 line-clamp-6">
-                                            {comment.comment}
+                                            {t(comment.comment)}
                                         </p>
                                         <p className="text-gray-500 text-lg text-end">
                                             {comment.nameUser}
@@ -76,7 +79,7 @@ const TopComment = () => {
                                         <Button
                                             className={`px-4 py-2 bg-orange-600 hover:bg-orange-400 rounded-md text-white font-medium transition duration-300 ${montserrat.className} w-4/5`}
                                         >
-                                            Set box
+                                            {t("Set box")}
                                         </Button>
                                     </CardFooter>
                                 </Card>

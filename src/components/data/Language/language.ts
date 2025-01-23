@@ -1,5 +1,5 @@
 import { EPathLanguage, ILanguage } from "./type";
 export const dataLanguage: ILanguage[] = [
-    { id: 1, name: "Vietnamese", src: EPathLanguage.VIETNAM },
-    { id: 2, name: "United States", src: EPathLanguage.USA },
+    { id: 1, name: "Vi", srcImg: EPathLanguage.VIETNAM, srcLink: "/vi" },
+    { id: 2, name: "US", srcImg: EPathLanguage.USA, srcLink: "/en" },
 ];

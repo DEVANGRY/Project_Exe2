@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import Autoplay from "embla-carousel-autoplay";
-import Banner1 from "@/app/common/subBanner/Banner1";
+import Banner1 from "@/app/[locale]/subBanner/Banner1";
 import { propsBanner } from "@/app/types/props.interface";
 
 const BannerCarousel = (props: propsBanner) => {

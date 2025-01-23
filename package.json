@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "dev": "explorer http://localhost:3000 & next dev --turbopack",
+        "dev": "explorer http://localhost:3000/vi & next dev --turbopack",
         "build": "next build",
         "start": "next start",
         "lint": "next lint"
@@ -19,6 +19,7 @@
         "embla-carousel-react": "^8.5.2",
         "lucide-react": "^0.471.1",
         "next": "15.1.4",
+        "next-intl": "^3.26.3",
         "react": "^19.0.0",
         "react-dom": "^19.0.0",
         "tailwind-merge": "^2.6.0",

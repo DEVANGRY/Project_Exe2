@@ -1,0 +1,136 @@
+{
+    "MenuHelper": {
+        "HowItWork": "Hoạt Động",
+        "Support": "Hỗ Trợ"
+    },
+    "HeaderHome": {
+        "Login": "Tham Gia | Đăng Nhập"
+    },
+    "Banner1": {
+        "NameWeb": "Bliss box",
+        "DetailBanner": "Đặt những món quà thật ý nghĩa và mang màu sắc riêng của bạn",
+        "GetStart": "Bắt Đầu"
+    },
+    "Sponsor": {
+        "ExclusiveLoot": "Chiến lợi phẩm độc quyền",
+        "SurpriseEveryMonth": "Bất ngờ mỗi tháng",
+        "DeliveredToYourDoor": "Giao hàng tận nơi"
+    },
+    "Featured": {
+        "Featured Subscriptions": "Hộp Quà Nổi Bật",
+        "GiftBox": {
+            "TetGiftBox": {
+                "Name": "Hộp Quà Tết 2025",
+                "Detail": "Tết Nguyên Đán không chỉ là thời khắc chuyển giao giữa năm cũ và năm mới mà còn là dịp để mọi người thắt chặt thêm tình cảm gia đình, thể hiện lòng biết ơn và tình yêu thương. Một hộp quà Tết không chỉ mang ý nghĩa vật chất mà còn tượng trưng cho sự chân thành, lời chúc sức khỏe, thịnh vượng dành cho những người thân yêu."
+            },
+            "LunarNewYearDeluxe": {
+                "Name": "Hộp Quà Tết Sang Trọng",
+                "Detail": "Chào mừng Tết Nguyên đán với Hộp quà tặng Deluxe của chúng tôi, chứa đầy những món quà cao cấp, phong bao lì xì đỏ tượng trưng và nhiều loại quà truyền thống. Hộp quà này là cách hoàn hảo để chúc những người thân yêu may mắn và hạnh phúc trong năm tới."
+            },
+            "SpringFestivalGourmet": {
+                "Name": "Lễ hội mùa xuân ẩm thực",
+                "Detail": "Trải nghiệm hương vị mùa xuân với Gourmet Box của chúng tôi, một lựa chọn sang trọng gồm rượu vang hảo hạng, đồ ngọt thủ công và các món ăn mặn. Hộp được tuyển chọn cẩn thận này mang tinh thần lễ hội đến bàn ăn của bạn, hoàn hảo để chia sẻ với gia đình và bạn bè."
+            }
+        },
+        "Buy Now": "Mua Ngay"
+    },
+    "BannerMain": {
+        "What's inside?": "Bên trong hộp quà có gì?",
+        "Detail Slog": "Bộ sưu tập các sản phẩm tuyệt vời được tuyển chọn từ những thương hiệu văn hóa đại chúng hay nhất, được giao đến tận nhà bạn mỗi tháng.",
+        "Sending love - Receiving joy": "Gửi yêu thương - Nhận niềm vui"
+    },
+    "BenefitsSection": {
+        "Why Choose Bliss Box": "Tại sao nên chọn Bliss Box",
+        "Detail Benefit": "Tại Bliss Box., chúng tôi chuyên tạo ra những hộp quà tặng theo yêu cầu, chạm đến trái tim. Mỗi hộp quà đều được tuyển chọn kỹ lưỡng để mang đến trải nghiệm tặng quà đáng nhớ, cho dù bạn đang bày tỏ lòng biết ơn, kỷ niệm một cột mốc quan trọng hay tạo nên một kết nối có ý nghĩa.",
+        "BenefitList": {
+            "Customizable": {
+                "Name": "Linh Hoạt",
+                "Detail": "Tùy chỉnh quà tặng của bạn để phản ánh phong cách và thông điệp độc đáo của bạn"
+            },
+            "HighQuality": {
+                "Name": "Chất Lượng",
+                "Detail": "Chỉ những sản phẩm tốt nhất mới được đưa vào hộp của chúng tôi"
+            },
+            "ImpactfulPresentation": {
+                "Name": "Ảnh Hưởng",
+                "Detail": "Bao bì của chúng tôi đẹp như những món quà bên trong"
+            }
+        }
+    },
+    "TopComment": {
+        "Shop Bliss Box with confidence": "Hãy tự tin mua sắm tại Bliss Box",
+        "Over": "Hơn",
+        "Satisfied Customers!": "Khách Hàng Hài Lòng!",
+        "Set box": "Đặt Hàng",
+        "ListComment": {
+            "Comment1": {
+                "Title": "Chất lượng tuyệt vời",
+                "DetailComment": "Hộp quà được đóng gói rất cẩn thận, từng chi tiết nhỏ đều được chăm chút. Sản phẩm bên trong đúng như mô tả và rất chất lượng. Thời gian giao hàng nhanh chóng, tôi rất hài lòng!"
+            },
+            "Comment2": {
+                "Title": "Dịch vụ chuyên nghiệp",
+                "DetailComment": "Tôi rất ấn tượng với cách phục vụ của Bliss Box. Hộp quà không chỉ đẹp mắt mà còn chứa đựng những món quà ý nghĩa. Đây là lựa chọn tuyệt vời cho bất kỳ dịp đặc biệt nào!"
+            },
+            "Comment3": {
+                "Title": "Giao hàng nhanh chóng",
+                "DetailComment": "Tôi đặt hộp quà vào phút chót nhưng vẫn được giao hàng đúng thời gian. Chất lượng sản phẩm bên trong tuyệt vời, và người nhận rất thích. Cảm ơn Bliss Box vì dịch vụ tuyệt vời này!"
+            }
+        }
+    },
+    "Faq": {
+        "Title": "Câu Hỏi Thường Gặp",
+        "ListDataFaq": {
+            "Question1": {
+                "Name": "Hộp quà tặng được tuyển chọn là gì?",
+                "Answer": "Hộp quà tặng được tuyển chọn là bộ sưu tập các mặt hàng được lựa chọn cẩn thận để tạo nên một món quà gắn kết và có ý nghĩa. Quá trình này bao gồm việc lựa chọn nhiều sản phẩm phù hợp với một chủ đề, dịp cụ thể hoặc sở thích của người nhận. Mục tiêu là cung cấp trải nghiệm tặng quà độc đáo và được cá nhân hóa, vượt ra ngoài một mặt hàng duy nhất để cung cấp một lựa chọn được tuyển chọn cẩn thận."
+            },
+            "Question2": {
+                "Name": "Tôi có thể gửi quà tặng thẳng đến người nhận không?",
+                "Answer": "Có, bạn có thể. Khi thanh toán, hãy điền vào phần vận chuyển với địa chỉ của người nhận và chúng tôi sẽ gửi thẳng đến họ. Đừng quên hoàn thành phần ghi chú để họ biết món quà này là của ai."
+            },
+            "Question3": {
+                "Name": "Tôi phải làm gì nếu không biết nên chọn món quà nào?",
+                "Answer": "Nếu bạn không chắc chắn, bạn có thể khám phá bộ sưu tập được tuyển chọn của chúng tôi dựa trên các dịp hoặc chủ đề phổ biến. Ngoài ra, nhóm của chúng tôi sẵn sàng hỗ trợ bạn tìm món quà hoàn hảo."
+            },
+            "Question4": {
+                "Name": "Tôi phải làm gì nếu muốn gửi quà cho tất cả nhân viên của mình?",
+                "Answer": "Chúng tôi cung cấp các giải pháp tặng quà số lượng lớn phù hợp với doanh nghiệp. Hãy liên hệ với nhóm tặng quà doanh nghiệp của chúng tôi để thảo luận về các yêu cầu của bạn và chúng tôi sẽ giúp bạn tạo ra trải nghiệm tặng quà có tác động."
+            }
+        }
+    },
+    "Footer": {
+        "NameWeb": "Bliss box",
+        "Detail": "Bất kể bạn đam mê điều gì, Bliss box™ đều có hộp đăng ký dành cho bạn! Đồ sưu tầm, trang phục và thiết bị độc quyền được giao đến tận nhà bạn.",
+        "About": "Về Chúng Tôi",
+        "ListAbout": {
+            "OurMission": "Sứ mệnh của chúng tôi",
+            "HowItWorks": "Cách thức hoạt động",
+            "Careers": "Doanh nghiệp",
+            "AccessibilityStatement": "Khả năng truy cập"
+        },
+        "Support": "Hỗ Trợ",
+        "ListSupport": {
+            "FAQs&HelpCenter": "Câu Hỏi & Hỗ Trợ",
+            "TermsOfService": "Điều khoản và dịch vụ",
+            "SpecialTerms": "Điều khoản đặc biệt",
+            "PrivacyPolicy": "Chính sách bảo mật",
+            "Contact": "Liên hệ",
+            "International": "Quốc Tế"
+        },
+        "Crates": "Đối tác",
+        "ListCrates": {
+            "PopCulture": "Văn hóa hợp tác",
+            "PartnerCrates": "Đối tác",
+            "Apparel": "Hỗ Trợ"
+        },
+        "Want Epic Deals & Looter Intel": "Bạn có muốn nhận được ưu đãi hấp dẫn và thông tin không?",
+        "Sign me up": "Đăng ký",
+        "Copyright © 2025 Bliss box": "Bản Quyền © 2025 Bliss box",
+        "Terms of Service": "Điều Khoản Dịch Vụ",
+        "Privacy Policy": "Chính sách bảo mật",
+        "Accessibility Options": "Tùy Chọn Trợ Năng"
+    },
+    "SelectLanguage": {
+        "Language": "Ngôn Ngữ"
+    }
+}
