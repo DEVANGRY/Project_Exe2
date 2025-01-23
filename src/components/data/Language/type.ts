@@ -9,5 +9,10 @@ export enum EPathLanguage {
 export interface ILanguage {
     id?: string | number;
     name: string;
-    src: string;
+    srcImg: string;
+    srcLink: string;
+}
+export enum ELanguage {
+    EN = "en",
+    Vi = "vi",
 }

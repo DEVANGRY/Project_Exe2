@@ -12,12 +12,14 @@ import { dataGiftBox } from "@/components/data/GiftBox/dataGiftBox";
 import { ETypeFormat, IGiftBox } from "@/components/data/GiftBox/type";
 import { Button } from "@/components/ui/button";
 import { convertFormatMoney } from "@/lib/utils";
+import { useTranslations } from "next-intl";
 
 const Featured = (props: propsFeatured) => {
+    const t = useTranslations("Featured");
     return (
         <div className={`${props.className} p-6 bg-gray-50`}>
             <h2 className="md:text-3xl font-bold text-gray-800 mb-6 text-center uppercase text-2xl hover:text-orange-500 cursor-pointer">
-                Featured Subscriptions
+                {t("Featured Subscriptions")}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
                 {dataGiftBox &&
@@ -40,10 +42,10 @@ const Featured = (props: propsFeatured) => {
                                 </CardHeader>
                                 <CardContent className="p-4">
                                     <h3 className="text-2xl font-semibold text-gray-900 mb-2">
-                                        {box.nameBox}
+                                        {t(box.nameBox)}
                                     </h3>
-                                    <p className="text-sm text-gray-600 line-clamp-3">
-                                        {box.detailBox}
+                                    <p className="text-sm text-gray-600 line-clamp-4 indent-5">
+                                        {t(box.detailBox)}
                                     </p>
                                 </CardContent>
                                 <CardFooter className="p-4 flex justify-between items-center border-t border-gray-200">
@@ -58,7 +60,7 @@ const Featured = (props: propsFeatured) => {
                                         <span className="text-xs text-gray-500 ml-2"></span>
                                     </p>
                                     <Button className="px-4 py-2 bg-orange-500 text-white text-sm rounded-lg hover:bg-orange-600 transition duration-300">
-                                        Buy Now
+                                        {t("Buy Now")}
                                     </Button>
                                 </CardFooter>
                             </Card>

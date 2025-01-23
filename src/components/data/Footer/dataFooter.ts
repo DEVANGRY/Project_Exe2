@@ -1,23 +1,25 @@
 import { IDataFooter } from "./type";
 
 export const dataFooter: IDataFooter = {
-    nameLogo: "Bliss box",
-    detail: `No matter what you geek out about, Bliss box™ has a
-                            subscription box for you! Exclusive collectibles,
-                            apparel and gear delivered to your door.`,
+    nameLogo: "NameWeb",
+    detail: "Detail",
     about: [
-        "Our Mission",
-        "How It Works",
-        "Careers",
-        "Accessibility Statement",
+        "ListAbout.OurMission",
+        "ListAbout.HowItWorks",
+        "ListAbout.Careers",
+        "ListAbout.AccessibilityStatement",
     ],
     support: [
-        "FAQs & Help Center",
-        "Terms of Service",
-        "Special Terms",
-        "Privacy Policy",
-        "Contact",
-        "International",
+        "ListSupport.FAQs&HelpCenter",
+        "ListSupport.TermsOfService",
+        "ListSupport.SpecialTerms",
+        "ListSupport.PrivacyPolicy",
+        "ListSupport.Contact",
+        "ListSupport.International",
     ],
-    crates: ["Pop Culture", "Partner Crates", "Apparel"],
+    crates: [
+        "ListCrates.PopCulture",
+        "ListCrates.PartnerCrates",
+        "ListCrates.Apparel",
+    ],
 };

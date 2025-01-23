@@ -1,0 +1,137 @@
+{
+    "MenuHelper": {
+        "HowItWork": "HOW IT WORK",
+        "Support": "SUPPORT"
+    },
+
+    "HeaderHome": {
+        "Login": "Join | Login"
+    },
+    "Banner1": {
+        "NameWeb": "Bliss box",
+        "DetailBanner": "The Best Surprise you know is coming",
+        "GetStart": "Get Start"
+    },
+    "Sponsor": {
+        "ExclusiveLoot": "Exclusive Loot",
+        "SurpriseEveryMonth": "A surprise every month",
+        "DeliveredToYourDoor": "Delivered to your door"
+    },
+    "Featured": {
+        "Featured Subscriptions": "Featured Subscriptions",
+        "GiftBox": {
+            "TetGiftBox": {
+                "Name": "Tet Gift Box",
+                "Detail": "Tet Nguyen Dan is not only the moment of transition between the old year and the new year, but also an occasion for people to strengthen family ties, express gratitude and love. A Tet gift box not only has material meaning but also symbolizes sincerity, wishes for health and prosperity for loved ones."
+            },
+            "LunarNewYearDeluxe": {
+                "Name": "Lunar New Year Deluxe",
+                "Detail": "Celebrate the Lunar New Year with our Deluxe Gift Box, filled with premium goodies, symbolic red envelopes, and a selection of traditional treats. This box is the perfect way to wish loved ones good fortune and happiness in the year to come."
+            },
+            "SpringFestivalGourmet": {
+                "Name": "Spring Festival Gourmet",
+                "Detail": "Experience the taste of spring with our Gourmet Box, a luxurious selection of fine wines, handcrafted sweets, and savory delights. This carefully curated box brings the festive spirit to your table, perfect for sharing with family and friends."
+            }
+        },
+        "Buy Now": "Buy Now"
+    },
+    "BannerMain": {
+        "What's inside?": "What's inside?",
+        "Detail Slog": "A curated collection of awesome items from the best pop culture franchises, delivered to your door every month.",
+        "Sending love - Receiving joy": "Sending love - Receiving joy"
+    },
+    "BenefitsSection": {
+        "Why Choose Bliss Box": "Why Choose Bliss Box",
+        "Detail Benefit": "At Bliss Box., we specialize in creating bespoke gift boxes that speak to the heart. Every box is thoughtfully curated to deliver a memorable gifting experience, whether you’re expressing gratitude, celebrating a milestone, or making a meaningful connection.",
+        "BenefitList": {
+            "Customizable": {
+                "Name": "Customizable",
+                "Detail": "Tailor your gifts to reflect your unique style and message"
+            },
+            "HighQuality": {
+                "Name": "High-Quality",
+                "Detail": "Only the finest products make it into our boxes"
+            },
+            "ImpactfulPresentation": {
+                "Name": "Impactful Presentation",
+                "Detail": "Our packaging is as beautiful as the gifts inside"
+            }
+        }
+    },
+    "TopComment": {
+        "Shop Bliss Box with confidence": "Shop Bliss Box with confidence",
+        "Over": "Over",
+        "Satisfied Customers!": "Satisfied Customers!",
+        "Set box": "Set box",
+        "ListComment": {
+            "Comment1": {
+                "Title": "Excellent quality",
+                "DetailComment": "The gift box was packed very carefully, every little detail was taken care of. The product inside is exactly as described and very good quality. Fast delivery time, I am very satisfied!"
+            },
+            "Comment2": {
+                "Title": "Professional Service",
+                "DetailComment": "I am very impressed with the service of Bliss Box. The gift boxes are not only beautiful but also contain meaningful gifts. This is a great choice for any special occasion!"
+            },
+            "Comment3": {
+                "Title": "Fast delivery",
+                "DetailComment": "I ordered the gift box at the last minute and it was delivered on time. The quality of the product inside is great and the recipient loved it. Thank you Bliss Box for the great service!"
+            }
+        }
+    },
+    "Faq": {
+        "Title": "FAQs",
+        "ListDataFaq": {
+            "Question1": {
+                "Name": "What is curated gift boxes?",
+                "Answer": "Curated gift boxes are thoughtfully assembled collections of items chosen with care to create a cohesive and meaningful gift. The process involves selecting a variety of products that align with a specific theme, occasion, or the recipient's preferences. The goal is to provide a unique and personalized gifting experience, going beyond a single item to offer a carefully curated selection."
+            },
+            "Question2": {
+                "Name": "Can I ship the gift straight to the receiver?",
+                "Answer": "Yes, you can. At check out, fill out the shipping portion with the receiver’s address and we will ship it straight to them. Don’t forget to complete the note section so they know who this gift is from."
+            },
+            "Question3": {
+                "Name": "What do I do if I don't know which gift to pick?",
+                "Answer": "If you are unsure, you can explore our curated collections based on popular occasions or themes. Additionally, our team is available to assist you in finding the perfect gift."
+            },
+            "Question4": {
+                "Name": "What do I do if I want to send a gift to all my employees?",
+                "Answer": "We offer bulk gifting solutions tailored to businesses. Contact our corporate gifting team to discuss your requirements and we will help you create an impactful gifting experience."
+            }
+        }
+    },
+    "Footer": {
+        "NameWeb": "Bliss box",
+        "Detail": "No matter what you geek out about, Bliss box™ has a subscription box for you! Exclusive collectibles, apparel and gear delivered to your door.",
+        "About": "About",
+        "ListAbout": {
+            "OurMission": "Our Mission",
+            "HowItWorks": "How It Works",
+            "Careers": "Careers",
+            "AccessibilityStatement": "Accessibility Statement"
+        },
+        "Support": "Support",
+        "ListSupport": {
+            "FAQs&HelpCenter": "FAQs & Help Center",
+            "TermsOfService": "Terms of Service",
+            "SpecialTerms": "Special Terms",
+            "PrivacyPolicy": "Privacy Policy",
+            "Contact": "Contact",
+            "International": "International"
+        },
+        "Crates": "Crates",
+        "ListCrates": {
+            "PopCulture": "Pop Culture",
+            "PartnerCrates": "Partner Crates",
+            "Apparel": "Apparel"
+        },
+        "Want Epic Deals & Looter Intel": "Want Epic Deals & Looter Intel?",
+        "Sign me up": "Sign me up",
+        "Copyright © 2025 Bliss box": "Copyright © 2025 Bliss box",
+        "Terms of Service": "Terms of Service",
+        "Privacy Policy": "Privacy Policy",
+        "Accessibility Options": "Accessibility Options"
+    },
+    "SelectLanguage": {
+        "Language": "Language"
+    }
+}

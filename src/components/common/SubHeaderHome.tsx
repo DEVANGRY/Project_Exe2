@@ -34,9 +34,7 @@ const SubHeader = (props: propsSubHeaderHome) => {
                     <div className="absolute right-0 w-full bg-black border-t border-gray-700">
                         <div className="flex flex-col items-end px-4 py-2 gap-4">
                             <MenuHelper></MenuHelper>
-                            <div className="w-[80px]">
-                                <SelectLanguage />
-                            </div>
+                            <SelectLanguage />
                         </div>
                     </div>
                 )}
