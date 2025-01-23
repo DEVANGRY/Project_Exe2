@@ -14,29 +14,39 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 export default async function RootLayout({
     children,
-    params: { locale },
-}: Readonly<{
+    params,
+}: {
     children: React.ReactNode;
-    params: { locale: ELanguage.EN | ELanguage.Vi };
-}>) {
-    const messages = await getMessages();
-    if (!routing.locales.includes(locale)) {
+    params: Promise<{ locale: ELanguage }>;
+}) {
+    const { locale } = await params;
+
+    if (!routing.locales.includes(locale as "en" | "vi")) {
         return notFound();
     }
+
+    let messages;
+    try {
+        messages = await getMessages();
+    } catch (error) {
+        console.error("Error loading messages:", error);
+        return notFound();
+    }
+
     return (
         <html lang={locale}>
             <body
                 className={`antialiased ${montserrat.className} flex flex-col`}
             >
-                <NextIntlClientProvider messages={messages}>
+                <NextIntlClientProvider locale={locale} messages={messages}>
                     <SubHeaderHome
                         className={`px-14 h-[40px] bg-black w-full text-white ${backGroundColorWeb} sticky top-0 z-50`}
-                    ></SubHeaderHome>
+                    />
                     <HeaderHome
                         className={`border-t-[2px] h-[70px] px-3 md:px-7 bg-black flex text-white justify-between items-center ${backGroundColorWeb} sticky top-[40px] z-40`}
-                    ></HeaderHome>
+                    />
                     {children}
-                    <Footer className="bg-slate-800 md:h-[70vh] h-[950px] px-10"></Footer>
+                    <Footer className="bg-slate-800 md:h-[70vh] h-[950px] px-10" />
                 </NextIntlClientProvider>
             </body>
         </html>
