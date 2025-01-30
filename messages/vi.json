@@ -132,5 +132,9 @@
     },
     "SelectLanguage": {
         "Language": "Ngôn Ngữ"
+    },
+    "Navigation": {
+        "Home": "Trang Chủ",
+        "Gift Box": "Hộp Quà Tặng"
     }
 }

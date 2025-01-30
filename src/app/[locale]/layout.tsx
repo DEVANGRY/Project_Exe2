@@ -21,7 +21,7 @@ export default async function RootLayout({
 }) {
     const { locale } = await params;
 
-    if (!routing.locales.includes(locale as "en" | "vi")) {
+    if (!routing.locales.includes(locale as ELanguage.EN | ELanguage.Vi)) {
         return notFound();
     }
 
@@ -46,7 +46,7 @@ export default async function RootLayout({
                         className={`border-t-[2px] h-[70px] px-3 md:px-7 bg-black flex text-white justify-between items-center ${backGroundColorWeb} sticky top-[40px] z-40`}
                     />
                     {children}
-                    <Footer className="bg-slate-800 md:h-[70vh] h-[950px] px-10" />
+                    <Footer className="bg-slate-800 h-[70vh] sm:h-[900px] md:h-[500px] px-10" />
                 </NextIntlClientProvider>
             </body>
         </html>

@@ -59,6 +59,7 @@ const TopComment = () => {
                                         <div className="flex items-center gap-1">
                                             <Stars
                                                 startNumber={comment.stars}
+                                                className="w-5 h-5"
                                             ></Stars>
                                         </div>
                                     </CardHeader>
