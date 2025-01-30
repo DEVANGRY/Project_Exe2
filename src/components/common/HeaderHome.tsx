@@ -1,10 +1,11 @@
+"use client";
 import React from "react";
 import Logo from "./Logo";
-import Link from "next/link";
 import { Store } from "lucide-react";
 import { propsHeaderHome } from "@/app/types/props.interface";
 import { useTranslations } from "next-intl";
-
+import { LinkI18n } from "@/i18n/routing";
+import Link from "next/link";
 const HeaderHome = (props: propsHeaderHome) => {
     const t = useTranslations("HeaderHome");
     return (
@@ -16,7 +17,9 @@ const HeaderHome = (props: propsHeaderHome) => {
                 <Link href={"/#"} className="login hover:text-orange-600">
                     {t("Login")}
                 </Link>
-                <Store className="ml-10  hover:text-orange-600 cursor-pointer" />
+                <LinkI18n href={"/shop"}>
+                    <Store className="ml-10  hover:text-orange-600 cursor-pointer" />
+                </LinkI18n>
             </div>
         </header>
     );

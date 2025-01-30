@@ -133,5 +133,9 @@
     },
     "SelectLanguage": {
         "Language": "Language"
+    },
+    "Navigation": {
+        "Home": "Home",
+        "Gift Box": "Gift Box"
     }
 }

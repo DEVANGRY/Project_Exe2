@@ -8,7 +8,7 @@ const Sponsor = (props: propsSponsor) => {
     const t = useTranslations("Sponsor");
     return (
         <div
-            className={`section_sponsor ${props.className} text-white flex flex-wrap px-4 md:px-20 items-center justify-center gap-8 md:gap-20 h-[350px] md:h-[140px]`}
+            className={`section_sponsor ${props.className} text-white flex flex-wrap px-4 md:px-20 items-center justify-center gap-8 md:gap-20 h-[350px] sm:h-[105px] lg:h-[145px]`}
         >
             {sponsorData &&
                 sponsorData.map((item: ISponsor, index: number) => {

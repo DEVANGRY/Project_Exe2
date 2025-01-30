@@ -9,7 +9,7 @@ import { backGroundColorWeb } from "@/app/data/Color/color";
 
 export default function Home() {
     return (
-        <div className="">
+        <>
             <BannerCarousel className="h-[70vh]"></BannerCarousel>
             <Sponsor className={`${backGroundColorWeb}`} />
             <Featured className="bg-slate-100"></Featured>
@@ -17,6 +17,6 @@ export default function Home() {
             <BenefitsSection className="h-[800px] md:h-[65vh] bg-gray-100"></BenefitsSection>
             <TopComment></TopComment>
             <Faqs></Faqs>
-        </div>
+        </>
     );
 }

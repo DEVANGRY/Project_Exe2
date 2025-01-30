@@ -8,7 +8,7 @@ const Stars = (props: propsStart) => {
             {Array.from({ length: 5 }).map((_, index: number) => (
                 <Star
                     key={index}
-                    className={`w-5 h-5 `}
+                    className={` ${props.className}`}
                     fill={index < props.startNumber ? "#fbbf24" : "none"}
                     stroke={index < props.startNumber ? "#fbbf24" : "#d1d5db"}
                 />

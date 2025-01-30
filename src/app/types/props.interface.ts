@@ -38,3 +38,13 @@ export interface propsStart {
     className?: string;
     startNumber: number;
 }
+
+export interface propsNavigation {
+    className?: string;
+}
+export interface propsFilter {
+    className?: string;
+}
+export interface propsBannerShop {
+    className?: string;
+}
