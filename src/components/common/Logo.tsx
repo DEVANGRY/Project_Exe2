@@ -11,10 +11,12 @@ const Logo = (propsLogo: propsLogo) => {
         <div
             className={`logo flex flex-col text-white items-center justify-center ${propsLogo.propClassName}`}
         >
-            <Image src={logoIcon} alt="logo" width={30} height={30} />
-            <p className={`title_logo text-sm ${playwrite.className}`}>
-                Bliss box
-            </p>
+            <a href="/#">
+                <Image src={logoIcon} alt="logo" width={30} height={30} />
+                <p className={`title_logo text-sm ${playwrite.className}`}>
+                    Bliss box
+                </p>
+            </a>
         </div>
     );
 };
