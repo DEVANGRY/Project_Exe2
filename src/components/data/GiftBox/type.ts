@@ -3,6 +3,7 @@ export interface IGiftBox {
     srcImage?: string;
     nameBox: string;
     detailBox: string;
+    buttonDetail?: string;
     price: number;
     TransportationMethod: number[];
 }

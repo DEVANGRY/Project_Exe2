@@ -11,6 +11,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import Autoplay from "embla-carousel-autoplay";
 import Banner1 from "@/app/[locale]/subBanner/Banner1";
 import { propsBanner } from "@/app/types/props.interface";
+import Banner2 from "@/app/[locale]/subBanner/Banner2";
+import Banner3 from "@/app/[locale]/subBanner/Banner3";
+
 
 const BannerCarousel = (props: propsBanner) => {
     const plugin = React.useRef(
@@ -39,7 +42,7 @@ const BannerCarousel = (props: propsBanner) => {
                         <div className="h-full">
                             <Card className="h-full">
                                 <CardContent className="flex items-center justify-center h-full p-0 ">
-                                    <Banner1 />
+                                    <Banner2 />
                                 </CardContent>
                             </Card>
                         </div>
@@ -48,7 +51,7 @@ const BannerCarousel = (props: propsBanner) => {
                         <div className="h-full">
                             <Card className="h-full">
                                 <CardContent className="flex items-center justify-center h-full p-0 ">
-                                    <Banner1 />
+                                    <Banner3/>
                                 </CardContent>
                             </Card>
                         </div>

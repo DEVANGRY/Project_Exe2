@@ -21,18 +21,21 @@
         "GiftBox": {
             "TetGiftBox": {
                 "Name": "Hộp Quà Tết 2025",
-                "Detail": "Tết Nguyên Đán không chỉ là thời khắc chuyển giao giữa năm cũ và năm mới mà còn là dịp để mọi người thắt chặt thêm tình cảm gia đình, thể hiện lòng biết ơn và tình yêu thương. Một hộp quà Tết không chỉ mang ý nghĩa vật chất mà còn tượng trưng cho sự chân thành, lời chúc sức khỏe, thịnh vượng dành cho những người thân yêu."
+                "Detail": "Tết Nguyên Đán không chỉ là thời khắc chuyển giao giữa năm cũ và năm mới mà còn là dịp để mọi người thắt chặt thêm tình cảm gia đình, thể hiện lòng biết ơn và tình yêu thương. Một hộp quà Tết không chỉ mang ý nghĩa vật chất mà còn tượng trưng cho sự chân thành, lời chúc sức khỏe, thịnh vượng dành cho những người thân yêu.",
+                "Detail Product": "Chi tiết"
             },
             "LunarNewYearDeluxe": {
                 "Name": "Hộp Quà Tết Sang Trọng",
-                "Detail": "Chào mừng Tết Nguyên đán với Hộp quà tặng Deluxe của chúng tôi, chứa đầy những món quà cao cấp, phong bao lì xì đỏ tượng trưng và nhiều loại quà truyền thống. Hộp quà này là cách hoàn hảo để chúc những người thân yêu may mắn và hạnh phúc trong năm tới."
+                "Detail": "Chào mừng Tết Nguyên đán với Hộp quà tặng Deluxe của chúng tôi, chứa đầy những món quà cao cấp, phong bao lì xì đỏ tượng trưng và nhiều loại quà truyền thống. Hộp quà này là cách hoàn hảo để chúc những người thân yêu may mắn và hạnh phúc trong năm tới.",
+                "Detail Product": "Chi tiết"
             },
             "SpringFestivalGourmet": {
                 "Name": "Lễ hội mùa xuân ẩm thực",
-                "Detail": "Trải nghiệm hương vị mùa xuân với Gourmet Box của chúng tôi, một lựa chọn sang trọng gồm rượu vang hảo hạng, đồ ngọt thủ công và các món ăn mặn. Hộp được tuyển chọn cẩn thận này mang tinh thần lễ hội đến bàn ăn của bạn, hoàn hảo để chia sẻ với gia đình và bạn bè."
+                "Detail": "Trải nghiệm hương vị mùa xuân với Gourmet Box của chúng tôi, một lựa chọn sang trọng gồm rượu vang hảo hạng, đồ ngọt thủ công và các món ăn mặn. Hộp được tuyển chọn cẩn thận này mang tinh thần lễ hội đến bàn ăn của bạn, hoàn hảo để chia sẻ với gia đình và bạn bè.",
+                "Detail Product": "Chi tiết"
             }
-        },
-        "Buy Now": "Mua Ngay"
+        }
+        
     },
     "BannerMain": {
         "What's inside?": "Bên trong hộp quà có gì?",

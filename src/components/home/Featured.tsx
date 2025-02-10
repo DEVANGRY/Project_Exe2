@@ -1,3 +1,5 @@
+"use client";
+import { useRouter } from "next/navigation"; // 🟢 Dùng next/navigation thay vì next/router
 import { propsFeatured } from "@/app/types/props.interface";
 import React from "react";
 import {
@@ -12,10 +14,12 @@ import { dataGiftBox } from "@/components/data/GiftBox/dataGiftBox";
 import { ETypeFormat, IGiftBox } from "@/components/data/GiftBox/type";
 import { Button } from "@/components/ui/button";
 import { convertFormatMoney } from "@/lib/utils";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 const Featured = (props: propsFeatured) => {
     const t = useTranslations("Featured");
+    const router = useRouter();
+    const locale = useLocale() || "vi";
     return (
         <div className={`${props.className} p-6 bg-gray-50`}>
             <h2 className="md:text-3xl font-bold text-gray-800 mb-6 text-center uppercase text-2xl hover:text-orange-500 cursor-pointer">
@@ -59,8 +63,10 @@ const Featured = (props: propsFeatured) => {
                                         </span>
                                         <span className="text-xs text-gray-500 ml-2"></span>
                                     </p>
-                                    <Button className="px-4 py-2 bg-orange-500 text-white text-sm rounded-lg hover:bg-orange-600 transition duration-300">
-                                        {t("Buy Now")}
+                                    <Button className="px-4 py-2 bg-orange-500 text-white text-sm rounded-lg hover:bg-orange-600 transition duration-300"                                     
+                                        onClick={() => router.push(`/${locale}/product-detail/${box.id}`)}
+                                    >
+                                        {t(box.buttonDetail?.toString() || "")}
                                     </Button>
                                 </CardFooter>
                             </Card>

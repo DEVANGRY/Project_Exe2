@@ -20,6 +20,7 @@ export interface propsSubHeaderHome {
 }
 export interface propsFeatured {
     className?: string;
+    onClick?: (id : string) => void;
 }
 export interface propsFooter {
     className?: string;
