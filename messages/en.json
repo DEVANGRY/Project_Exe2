@@ -21,17 +21,17 @@
         "Featured Subscriptions": "Featured Subscriptions",
         "GiftBox": {
             "TetGiftBox": {
-                "Name": "Tet Gift Box",
-                "Detail": "Tet Nguyen Dan is not only the moment of transition between the old year and the new year, but also an occasion for people to strengthen family ties, express gratitude and love. A Tet gift box not only has material meaning but also symbolizes sincerity, wishes for health and prosperity for loved ones.",
+                "Name": "Gift Box",
+                "Detail": "The gift box brings you interesting products containing BB3 of all kinds that you desire. The gift box is full of love for your precious friend.",
                 "Detail Product": "Detail Product"
             },
             "LunarNewYearDeluxe": {
-                "Name": "Lunar New Year Deluxe",
+                "Name": "Flower Box",
                 "Detail": "Celebrate the Lunar New Year with our Deluxe Gift Box, filled with premium goodies, symbolic red envelopes, and a selection of traditional treats. This box is the perfect way to wish loved ones good fortune and happiness in the year to come.",
                 "Detail Product": "Detail Product"
             },
             "SpringFestivalGourmet": {
-                "Name": "Spring Festival Gourmet",
+                "Name": "Flower Mini Box",
                 "Detail": "Experience the taste of spring with our Gourmet Box, a luxurious selection of fine wines, handcrafted sweets, and savory delights. This carefully curated box brings the festive spirit to your table, perfect for sharing with family and friends.",
                 "Detail Product": "Detail Product"
             }
@@ -55,7 +55,7 @@
                 "Detail": "Only the finest products make it into our boxes"
             },
             "ImpactfulPresentation": {
-                "Name": "Impactful Presentation",
+                "Name": "Ensure",
                 "Detail": "Our packaging is as beautiful as the gifts inside"
             }
         }

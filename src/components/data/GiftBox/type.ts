@@ -1,6 +1,7 @@
 export interface IGiftBox {
     id?: string | number;
-    srcImage?: string;
+    srcImage: string;
+    srcImagedetail: string;
     nameBox: string;
     detailBox: string;
     buttonDetail?: string;
