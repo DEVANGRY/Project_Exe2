@@ -1,4 +1,4 @@
-import { box1, box2, box3 , boxDetail1, boxDetail2 } from "@/app/data/Box/box";
+import { box1, box3, boxDetail1, boxDetail2 } from "@/app/data/Box/box";
 import { IGiftBox } from "./type";
 
 export const dataGiftBox: IGiftBox[] = [
