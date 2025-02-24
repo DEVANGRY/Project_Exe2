@@ -1,3 +1,5 @@
+"use client";
+
 import { box1 } from "@/app/data/Box/box";
 import { dataGiftBox } from "@/components/data/GiftBox/dataGiftBox";
 import { ETypeFormat, IGiftBox } from "@/components/data/GiftBox/type";
@@ -11,10 +13,16 @@ import {
     CardHeader,
 } from "@/components/ui/card";
 import { convertFormatMoney } from "@/lib/utils";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 const Shop = () => {
+    const router = useRouter();
+    const locale = useLocale() || "vi";
+    const t = useTranslations("Featured");
+
     return (
         <div className="shop flex flex-col lg:flex-row gap-5 ">
             <Filter className="w-full lg:w-1/4 xl:w-1/5 h-[570px] md:sticky top-36 mb-10"></Filter>
@@ -40,10 +48,10 @@ const Shop = () => {
                             </CardHeader>
                             <CardContent className="p-4">
                                 <h3 className="text-lg font-semibold text-gray-900 mb-2 line-clamp-1">
-                                    {box.nameBox}
+                                    {t(box.nameBox)}
                                 </h3>
-                                <p className="text-sm text-gray-600 line-clamp-2">
-                                    {box.detailBox}
+                                <p className="text-sm text-gray-600 line-clamp-3">
+                                    {t(box.detailBox)}
                                 </p>
                             </CardContent>
                             <CardFooter className="p-4 flex justify-between items-center border-t border-gray-200">
@@ -56,7 +64,14 @@ const Shop = () => {
                                         VNĐ
                                     </span>
                                 </p>
-                                <Button className="px-4 py-2 bg-orange-500 text-white text-sm rounded-lg hover:bg-orange-600 transition duration-300">
+                                <Button
+                                    className="px-4 py-2 bg-orange-500 text-white text-sm rounded-lg hover:bg-orange-600 transition duration-300"
+                                    onClick={() =>
+                                        router.push(
+                                            `/${locale}/product-detail/${box.id}`
+                                        )
+                                    }
+                                >
                                     Detail
                                 </Button>
                             </CardFooter>
